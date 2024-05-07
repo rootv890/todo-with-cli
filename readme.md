@@ -12,11 +12,19 @@
 
 ## Commands
 
-![Commands](./static/commands.png)
+- `todo new <todo>` : Add a new todo
+- `todo getall` : Add all the todos from file
+- `todo find <filter>` : Get all the todos that match the filter
+- `todo delete <id>` : Delete a todo with the id
+- `todo web [port]` : Start the web server to view the todos
+- `todo edit <id> <todo>` : Edit a todo by id
+- `todo clean` : Clean all the todos
 
 ## Options
 
-![Options](./static/options.png)
+- `--help` : Show help [boolean]
+- `--version` : Show version number [boolean]
+- `-t`, `--tags` : Add tags to the todo [array]
 
 ### I am Note Explainer If you like it you can help the project
 
